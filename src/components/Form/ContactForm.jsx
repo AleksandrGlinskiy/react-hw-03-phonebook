@@ -6,9 +6,10 @@ import css from './Form.module.css'
 export class ContactForm extends Component {
 
   state = {
+    id: '',
     name: '',
-    number: '',
-    id: ''
+    number: ''
+    
   }
 
   handleChange = e => {
